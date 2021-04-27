@@ -1,0 +1,25 @@
+************* Module test
+C:\Users\Microsoft\Desktop\test.py:8:6: C0326: No space allowed before bracket
+print ('Well, {0}, I am thinking of a number between 1 and 20.'.format(name))
+      ^ (bad-whitespace)
+C:\Users\Microsoft\Desktop\test.py:17:14: C0326: No space allowed before bracket
+        print ('Your guess is too low.')
+              ^ (bad-whitespace)
+C:\Users\Microsoft\Desktop\test.py:20:14: C0326: No space allowed before bracket
+        print ('Your guess is too high.')
+              ^ (bad-whitespace)
+C:\Users\Microsoft\Desktop\test.py:26:10: C0326: No space allowed before bracket
+    print ('Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made))
+          ^ (bad-whitespace)
+C:\Users\Microsoft\Desktop\test.py:28:10: C0326: No space allowed before bracket
+    print ('Nope. The number I was thinking of was {0}'.format(number))
+          ^ (bad-whitespace)
+C:\Users\Microsoft\Desktop\test.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+C:\Users\Microsoft\Desktop\test.py:3:0: C0103: Constant name "guesses_made" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:\Users\Microsoft\Desktop\test.py:5:0: C0103: Constant name "name" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:\Users\Microsoft\Desktop\test.py:7:0: C0103: Constant name "number" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:\Users\Microsoft\Desktop\test.py:12:4: C0103: Constant name "guess" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 4.12/10 (previous run: 4.12/10, +0.00)
+
